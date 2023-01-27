@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans', cursive;
+}
+
+header {
+  height: 48vh;
+}
+
+header h1 {
+  color: khaki;
+  font-size: 40px;
+  margin: 0 15vw;
+  width: 70%;
+  -webkit-text-stroke: 0.5px darkorange;
+}
+
+header div {
+  background-image: url("../images/design1_image1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  margin: 0 15vw;
+  width: 70%;
+}
+
+header .logo {
+  background-color: white;
+  border: 2px solid black;
+  position: absolute;
+  left: 15vw;
+  top: 51.5vh;
+  width: 5vw;
+  z-index: 1;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 15.1vw;
+  top: 6.4vh;
+  z-index: 1;
+}
+
+header nav a {
+  background-color: royalblue;
+  border: 1px solid black;
+  box-shadow: 2.5px 2.5px 3px black;
+  color: gainsboro;
+  margin: 0 5px;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 70%;
+  height: 20px;
+}
+
+nav a.active {
+  background-color: green;
+}
+
+main h2 {
+  background-color: ghostwhite;
+  border: 2px solid black;
+  color: black;
+  font-size: 2vh;
+  padding: 1vh 0;
+  position: absolute;
+  right: 15vw;
+  top: 38.2vh;
+  text-align: center;
+  width: 70%;
+  z-index: 0;
+}
+
+main .content {
+  display: flex;
+  flex-direction: column;
+  margin: 0vh 15vw;
+  position: relative;
+  text-align: left;
+  width: 70%;
+}
+
+main .content div {
+  position: relative;
+  margin-left: 15%;
+  padding: 20px 0;
+}
+main .content div h3, h4, h5, p {
+  position: relative;
+  text-align: left;
+}
+
+main .content div h3 {margin-bottom: 8px;}
+
+main .content div p {
+  font-size: 13px;
+}
