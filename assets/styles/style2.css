@@ -25,10 +25,9 @@ header div {
   background-size: cover;
   height: 32vh;
   margin: 0 15vw;
+  object-fit: contain;
   width: 70%;
 }
-
-header div h1 {object-fit: contain;}
 
 header .logo {
   background-color: white;
