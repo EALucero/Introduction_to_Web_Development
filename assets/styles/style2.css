@@ -146,34 +146,56 @@ main table {
 
 main table .firstTD{text-indent: 3.3vw;}
 
-main table fieldset {
+main .maps {
+  background-color: khaki;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4vh;
+  width: 55vw;
+}
+
+main .maps iframe {padding: 5px;}
+
+main form fieldset {
   background: #E6E6FA;
-
-
-  width: 74vw;
+  width: 58vw;
 }
 
-main table label {
+main form label {
   margin-left: 10px;
-  width: 73vw;
+  width: 58vw;
 }
 
-main table .short {
+main form .short {
   margin: 0px 4px;
 }
 
-main table .medium {
-  width: 31%;
+main form .medium {
+  width: 30%;
   margin: 0px 12px;
 }
 
-main table .large {
-  width: 72%;
+main form .large {
+  width: 70%;
   margin: 0px 12px;
 }
 
-main table .final {
-  width: 31%;
+main form .final {
+  width: 30%;
   height: 4vh;
   margin: 0px 12px;
+}
+
+main form .b3 {
+  color: red;
+  text-align: center;
+  text-decoration: inherit;
+  position: relative;
+  margin: 4px;
+  width: 8vh;
+  height: 4vh;
+  top: 7.5vh;
+  left: 25vw;
+  background-color: lightgoldenrodyellow;
+  border: 1px solid black;
 }
